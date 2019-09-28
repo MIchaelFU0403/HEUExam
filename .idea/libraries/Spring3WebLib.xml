@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Spring3WebLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/org.springframework.web.servlet-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/org.springframework.oxm-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/org.springframework.web-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/org.springframework.web.portlet-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/com.springsource.org.apache.commons.httpclient-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/org.springframework.web.struts-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/com.springsource.org.codehaus.jackson.mapper-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3WebLib/com.springsource.org.apache.commons.fileupload-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Spring3P-CoreLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3P-CoreLib/org.springframework.jdbc-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3P-CoreLib/org.springframework.orm-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3P-CoreLib/persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3P-CoreLib/org.springframework.transaction-3.0.1.RELEASE-A.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

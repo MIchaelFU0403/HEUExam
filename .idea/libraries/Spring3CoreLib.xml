@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Spring3CoreLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/org.springframework.expression-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/org.springframework.context-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/jmxtools-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/org.springframework.core-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/org.springframework.beans-3.0.1.RELEASE-A.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/Spring3/Spring3CoreLib/org.springframework.asm-3.0.1.RELEASE-A.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
