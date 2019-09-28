@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <!-- 配置文件的注释 以下的namespace称为命名空间,
+ 它的值一定是接口的全路径才能实现接口未实现的抽象方法 -->
+<mapper namespace="com.web.lyj.mapper.UserMapper">
+<select id="getRow"  resultType="int">
+ select count(*) r from t_user
+</select>
+<select id="queryUserById" resultType="User" parameterType="int" >
+select u_id uid,u_name name,u_email email from t_user where u_id=#{value}
+</select>
+<select id="sameNameEmail"  resultType="int" parameterType="User">
+ select count(*) r from t_user where u_name=#{name} or u_email=#{email}
+</select>
+<insert id="register" parameterType="User">
+ insert into t_user(u_name,u_pwd,u_email) 
+ values(#{name},#{pwd},#{email})
+</insert>
+<select id="login"  resultType="String" parameterType="User">
+ select u_pwd from t_user where u_name=#{name}
+</select>
+<select id="search"  resultType="User" parameterType="User">
+ select u_id uid from t_user where u_name=#{name}
+</select>
+<select id="pagination"  resultType="User" parameterType="int">
+ select u_id uid,u_name name,u_email email  
+ from t_user where u_role=1 limit #{0},#{1}
+</select>
+<delete id="remove" parameterType="int">
+  delete from t_user where u_id=#{value}
+</delete>
+
+<update id="modify" parameterType="User">
+   update t_user set u_pwd=#{pwd}
+    where u_id=#{uid} and u_name=#{name} and u_email=#{email}
+</update>
+<select id="managerQueryUser" parameterType="String"   resultType="User">
+       select u_id uid,u_name name,u_pwd pwd,u_email email from t_user where u_name=#{name}
+   </select>   
+<select id="managerQueryUserAll"  resultType="User">
+       select u_id uid,u_name name,u_pwd pwd,u_email email from t_user
+   </select>
+
+</mapper>
